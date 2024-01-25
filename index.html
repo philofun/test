@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <header>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-webcam@latest/dist/react-webcam.min.js"></script>
+    <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </header>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      ReactDOM.render(
+        <Webcam />,
+        document.getElementById('root')
+      );
+    </script>
+  </body>
+</html>
